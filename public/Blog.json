@@ -1,0 +1,62 @@
+[
+  {
+    "id": "001",
+    "cover": "https://example.com/image1.jpg",
+    "title": "Lorem Ipsum",
+    "other": "Some additional information about the content.",
+    "other_img": "https://example.com/other_image1.jpg",
+    "posted_date": "2023-09-11",
+    "posting_time": 52200, // 14 hours and 30 minutes after midnight
+    "hashtag": "#LoremIpsum #DataExample",
+    "reading_time_minutes": 10, // Estimated reading time in minutes
+    "author": "John Doe" // Author's name
+  },
+  {
+    "id": "002",
+    "cover": "https://example.com/image2.jpg",
+    "title": "Sample Data",
+    "other": "More details about this sample data entry.",
+    "other_img": "https://example.com/other_image2.jpg",
+    "posted_date": "2023-09-10",
+    "posting_time": 33300, // 09 hours and 15 minutes after midnight
+    "hashtag": "#SampleData #Example",
+    "reading_time_minutes": 8, // Estimated reading time in minutes
+    "author": "Jane Smith" // Author's name
+  },
+  {
+    "id": "003",
+    "cover": "https://example.com/image3.jpg",
+    "title": "Data Points",
+    "other": "Additional content information goes here.",
+    "other_img": "https://example.com/other_image3.jpg",
+    "posted_date": "2023-09-09",
+    "posting_time": 67500, // 18 hours and 45 minutes after midnight
+    "hashtag": "#DataPoints #ExampleData",
+    "reading_time_minutes": 12, // Estimated reading time in minutes
+    "author": "Alex Johnson" // Author's name
+  },
+  {
+    "id": "004",
+    "cover": "https://example.com/image4.jpg",
+    "title": "Information Hub",
+    "other": "Details and context for this data entry.",
+    "other_img": "https://example.com/other_image4.jpg",
+    "posted_date": "2023-09-08",
+    "posting_time": 43200, // 12 hours after midnight
+    "hashtag": "#InformationHub #Data",
+    "reading_time_minutes": 15, // Estimated reading time in minutes
+    "author": "Emily Brown" // Author's name
+  },
+  {
+    "id": "005",
+    "cover": "https://example.com/image5.jpg",
+    "title": "Exploring Data",
+    "other": "Additional notes about this dataset entry.",
+    "other_img": "https://example.com/other_image5.jpg",
+    "posted_date": "2023-09-07",
+    "posting_time": 58800, // 16 hours and 20 minutes after midnight
+    "hashtag": "#ExploringData #Analysis",
+    "reading_time_minutes": 9, // Estimated reading time in minutes
+    "author": "Michael Davis" // Author's name
+  }
+]
