@@ -1,62 +1,62 @@
 [
   {
     "id": "001",
-    "cover": "https://example.com/image1.jpg",
+    "cover": "https://i.ibb.co/BfHgvnH/intricate-explorer-t11-SFyhfjkk-unsplash.jpg",
     "title": "Lorem Ipsum",
     "other": "Some additional information about the content.",
-    "other_img": "https://example.com/other_image1.jpg",
+    "other_img": "https://i.ibb.co/Srb3c4k/toa-heftiba-O3ymv-T7-Wf9-U-unsplash.jpg",
     "posted_date": "2023-09-11",
-    "posting_time": 52200, // 14 hours and 30 minutes after midnight
+    "posting_time": 52200,
     "hashtag": "#LoremIpsum #DataExample",
-    "reading_time_minutes": 10, // Estimated reading time in minutes
-    "author": "John Doe" // Author's name
+    "reading_time_minutes": 10, 
+    "author": "John Doe" 
   },
   {
     "id": "002",
-    "cover": "https://example.com/image2.jpg",
+    "cover": "https://i.ibb.co/xGMjwsC/jr-korpa-w-AXD-Its-48-unsplash.jpg",
     "title": "Sample Data",
     "other": "More details about this sample data entry.",
-    "other_img": "https://example.com/other_image2.jpg",
+    "other_img": "https://i.ibb.co/nQR7kFm/rayul-M6gy9o-Hg-II-unsplash.jpg",
     "posted_date": "2023-09-10",
-    "posting_time": 33300, // 09 hours and 15 minutes after midnight
+    "posting_time": 33300, 
     "hashtag": "#SampleData #Example",
-    "reading_time_minutes": 8, // Estimated reading time in minutes
-    "author": "Jane Smith" // Author's name
+    "reading_time_minutes": 8, 
+    "author": "Jane Smith" 
   },
   {
     "id": "003",
-    "cover": "https://example.com/image3.jpg",
+    "cover": "https://i.ibb.co/rtSy430/chandan-verma-2-SY5-YB0-Szf4-unsplash.jpg",
     "title": "Data Points",
     "other": "Additional content information goes here.",
-    "other_img": "https://example.com/other_image3.jpg",
+    "other_img": "https://i.ibb.co/0CX9Fjm/ali-morshedlou-WMD64t-Mfc4k-unsplash.jpg",
     "posted_date": "2023-09-09",
-    "posting_time": 67500, // 18 hours and 45 minutes after midnight
+    "posting_time": 67500, 
     "hashtag": "#DataPoints #ExampleData",
-    "reading_time_minutes": 12, // Estimated reading time in minutes
-    "author": "Alex Johnson" // Author's name
+    "reading_time_minutes": 12, 
+    "author": "Alex Johnson" 
   },
   {
     "id": "004",
-    "cover": "https://example.com/image4.jpg",
+    "cover": "https://i.ibb.co/WnwYzXm/mohammadhosein-mohebbi-6dko-R1b4nt0-unsplash.jpg",
     "title": "Information Hub",
     "other": "Details and context for this data entry.",
-    "other_img": "https://example.com/other_image4.jpg",
+    "other_img": "https://i.ibb.co/DVVcXR9/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
     "posted_date": "2023-09-08",
-    "posting_time": 43200, // 12 hours after midnight
+    "posting_time": 43200, 
     "hashtag": "#InformationHub #Data",
-    "reading_time_minutes": 15, // Estimated reading time in minutes
-    "author": "Emily Brown" // Author's name
+    "reading_time_minutes": 15, 
+    "author": "Emily Brown" 
   },
   {
     "id": "005",
-    "cover": "https://example.com/image5.jpg",
+    "cover": "https://i.ibb.co/YP9fW5K/kajetan-sumila-OVWb-Lbog-HCU-unsplash.jpg",
     "title": "Exploring Data",
     "other": "Additional notes about this dataset entry.",
-    "other_img": "https://example.com/other_image5.jpg",
+    "other_img": "https://i.ibb.co/4dbPpdT/michael-dam-m-EZ3-Po-FGs-k-unsplash.jpg",
     "posted_date": "2023-09-07",
-    "posting_time": 58800, // 16 hours and 20 minutes after midnight
+    "posting_time": 58800, 
     "hashtag": "#ExploringData #Analysis",
-    "reading_time_minutes": 9, // Estimated reading time in minutes
-    "author": "Michael Davis" // Author's name
+    "reading_time_minutes": 9, 
+    "author": "Michael Davis" 
   }
 ]
