@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import MarkRead from "./MarkRead";
+
 
 const Title = ({blog}) => {
     return (
@@ -9,5 +11,7 @@ const Title = ({blog}) => {
         </div>
     );
 };
-
+Title.propTypes = {
+    blog : PropTypes.object.isRequired
+}
 export default Title;

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import ReadTime from "./ReadTime";
 
 const Author = ({blog}) => {
@@ -19,5 +20,7 @@ const Author = ({blog}) => {
         </div>
     );
 };
-
+Author.propTypes ={
+    blog : PropTypes.object.isRequired
+}
 export default Author;

@@ -1,5 +1,5 @@
+import PropTypes from 'prop-types';
 import Author from "../Author/Author";
-import SideBar from "../SideBar/SideBar";
 import Cover from "./Cover";
 import Title from "./Title";
 
@@ -17,5 +17,7 @@ const Blog = ({blog}) => {
         </div>
     );
 };
-
+Blog.propTypes ={
+    blog : PropTypes.object.isRequired
+}
 export default Blog;

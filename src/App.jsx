@@ -1,7 +1,6 @@
 import './App.css'
 import Blogs from './Components/Blogs/Blogs'
 import Header from './Components/Header/Header'
-import SideBar from './Components/SideBar/SideBar'
 
 function App() {
 
