@@ -16,11 +16,14 @@ const Blogs = () => {
         setSum(setTime)
         // console.log(sum)
     } 
-    const bookMark = []
+    const [bookMark, setBookMark] = useState([])
     const addBookmark = (blog) =>{
-        bookMark.push(blog.other)
-    // console.log('addBookmark', blog,bookMark.length )
-    }
+        const arr = [...bookMark, blog] 
+        setBookMark(arr)
+    // console.log(bookMark, 'jj' )
+}
+// console.log(bookMark, 'jj' )
+// console.log('addBookmark',bookMark.length )
     return (
         <div className="md:flex md:gap-5">
             <div className="md:w-2/3">
