@@ -1,7 +1,7 @@
 import ReadTime from "./ReadTime";
 
 const Author = ({blog}) => {
-    console.log(blog)
+    // console.log(blog)
     return (
         <div className="flex items-center justify-between">
             <div className="flex items-center my-5 gap-4">

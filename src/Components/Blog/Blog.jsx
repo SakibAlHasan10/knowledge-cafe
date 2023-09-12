@@ -4,7 +4,7 @@ import Cover from "./Cover";
 import Title from "./Title";
 
 const Blog = ({blog}) => {
-    console.log(blog)
+    // console.log(blog)
     return (
         <div className="">
             <div>

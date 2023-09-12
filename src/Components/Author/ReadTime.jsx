@@ -1,8 +1,7 @@
-import { useState } from "react";
+
 
 const ReadTime = ({blog}) => {
-    const [sum, setSum] = useState(10)
-    console.log(sum)
+    
     return (
         <div className="flex ">
             <p className="text-lg font-medium mr-1">{blog.reading_time_minutes} min read</p>
