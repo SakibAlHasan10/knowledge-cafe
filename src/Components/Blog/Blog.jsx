@@ -8,9 +8,9 @@ const Blog = ({blog, sumAllTime, addBookmark}) => {
         <div className="">
             <div >
                 <Cover blog={blog}></Cover>
-                <Author blog={blog} sumAllTime={sumAllTime}></Author>
+                <Author blog={blog} addBookmark={addBookmark}></Author>
                 <Title blog={blog}
-                addBookmark={addBookmark}
+                sumAllTime={sumAllTime}
                 ></Title>
             </div>
             

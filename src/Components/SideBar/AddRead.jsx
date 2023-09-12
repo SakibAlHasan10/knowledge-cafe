@@ -1,10 +1,19 @@
+import PropTypes  from "prop-types";
+import Display from "./Display";
 
-const AddRead = () => {
+const AddRead = ({bookMark}) => {
+    console.log('hello',bookMark)
+    // const mark = bookMark.map(newBlog => newBlog)
+    // console.log(mark)
     return (
-        <div>
-            
+        <div className=" text-lg font-semibold">
+            {
+                bookMark.map(newBlog =>  <Display newBlog={newBlog}></Display>)
+            }
         </div>
     );
 };
-
+AddRead.propTypes = {
+    bookMark : PropTypes.array.isRequired
+}
 export default AddRead;
