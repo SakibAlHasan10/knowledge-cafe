@@ -9,7 +9,7 @@ const Author = ({blog}) => {
                 className=" w-16 h-16 rounded-full"
                 alt="" />
                 <div>
-                    <h3 className="text-2xl font-bold">{blog.author}</h3>
+                    <h3 className=" text-xl md:text-2xl font-bold">{blog.author}</h3>
                     <p className="text-[#11111199] text-md font-semibold">{blog.posted_date}</p>
                 </div>
             </div>

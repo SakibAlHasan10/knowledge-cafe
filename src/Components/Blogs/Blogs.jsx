@@ -11,7 +11,7 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     },[])
     return (
-        <div className="flex">
+        <div className="md:flex">
             <div className="">
             {
                 blogs.map(blog => <Blog key={blog.id}

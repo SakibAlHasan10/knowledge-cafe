@@ -1,8 +1,8 @@
 const Cover = ({blog}) => {
     return (
-        <div>
+        <div className="">
             <img src={blog.cover} 
-                className="mb-5 h-[400px] w-[800px]" alt=""/>
+                className="mb-5 h-[300px] lg:h-[400px] w-full" alt=""/>
         </div>
     );
 };
