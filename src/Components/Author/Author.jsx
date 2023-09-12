@@ -1,3 +1,4 @@
+import ReadTime from "./ReadTime";
 
 const Author = ({blog}) => {
     console.log(blog)
@@ -13,7 +14,7 @@ const Author = ({blog}) => {
                 </div>
             </div>
             <div>
-                <p className="text-lg font-medium">{blog.reading_time_minutes} min read</p>
+                <ReadTime blog={blog}></ReadTime>
             </div>
         </div>
     );
