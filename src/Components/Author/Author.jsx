@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ReadTime from "./ReadTime";
 
-const Author = ({blog}) => {
+const Author = ({blog, sumAllTime}) => {
     // console.log(blog)
     return (
         <div className="flex items-center justify-between">
@@ -15,12 +15,13 @@ const Author = ({blog}) => {
                 </div>
             </div>
             <div>
-                <ReadTime blog={blog}></ReadTime>
+                <ReadTime blog={blog} sumAllTime={sumAllTime}></ReadTime>
             </div>
         </div>
     );
 };
 Author.propTypes ={
-    blog : PropTypes.object.isRequired
+    blog : PropTypes.object.isRequired,
+    sumAllTime : PropTypes.func.isRequired
 }
 export default Author;

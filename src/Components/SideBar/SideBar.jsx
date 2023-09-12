@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import AddReadTime from "./AddReadTime";
 
 const SideBar = ({blog}) => {
-    console.log(blog)
+    // console.log(blog)
     return (
         <div className=" ">
             <AddReadTime blog={blog}></AddReadTime>
