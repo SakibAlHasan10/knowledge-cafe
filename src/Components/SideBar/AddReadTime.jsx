@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types'
 
-const AddReadTime = ({blog}) => {
-    // console.log(blog)
-    
-    // sumAllTime(10)
+const AddReadTime = ({sum}) => {
     return (
         <div className="bg-slate-200 px-8 py-6 border-2 border-solid
         border-[#6047EC] rounded-md">
@@ -12,6 +9,6 @@ const AddReadTime = ({blog}) => {
     );
 };
 AddReadTime.propTypes ={
-    blog : PropTypes.object.isRequired
+    sum : PropTypes.number.isRequired
 }
 export default AddReadTime;
