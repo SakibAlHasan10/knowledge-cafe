@@ -8,7 +8,7 @@ const AddRead = ({bookMark}) => {
     return (
         <div className=" text-lg font-semibold">
             {
-                bookMark.map(newBlog =>  <Display newBlog={newBlog}></Display>)
+                bookMark.map((newBlog, idx) =>  <Display key={idx} newBlog={newBlog}></Display>)
             }
         </div>
     );

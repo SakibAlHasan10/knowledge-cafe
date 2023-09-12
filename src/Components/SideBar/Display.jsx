@@ -9,6 +9,6 @@ const Display = ({newBlog}) => {
     );
 };
 Display.propTypes = {
-
+  newBlog : PropTypes.object.isRequired
 }
 export default Display;
