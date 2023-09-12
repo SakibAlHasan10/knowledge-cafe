@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import AddReadTime from "./AddReadTime";
 
 const SideBar = ({blog}) => {
+    console.log(blog)
     return (
-        <div className=" bg-slate-500">
+        <div className=" ">
             <AddReadTime blog={blog}></AddReadTime>
-            <h2>my name</h2>
         </div>
     );
 };

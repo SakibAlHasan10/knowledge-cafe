@@ -1,14 +1,11 @@
 import PropTypes from 'prop-types';
-import { useState } from "react";
 
-const AddReadTime = ({blog}) => {
-    const [sum, setSum] = useState(0)
-    const AddReadTime = () =>{
-        
-    }
+const AddReadTime = () => {
+    
     return (
-        <div className="">
-            <p>Spent time on read : {} min</p>
+        <div className="bg-slate-200 px-8 py-6 border-2 border-solid
+        border-[#6047EC] rounded-md">
+            <p className='text-[#6047EC] text-2xl font-bold'>Spent time on read : min</p>
         </div>
     );
 };
