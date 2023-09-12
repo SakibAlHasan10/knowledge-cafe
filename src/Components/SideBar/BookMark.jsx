@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import AddRead from './AddRead';
 const BookMark = ({bookMark}) => {
-    console.log(bookMark, 'ffff')
+    // console.log(bookMark, 'ffff')
     return (
         <div className="mt-5 border-2 border-solid border-[#6047EC]
          bg-slate-200 py-5 px-5">
