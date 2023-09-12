@@ -3,7 +3,7 @@ import AddReadTime from "./AddReadTime";
 import BookMark from './BookMark';
 
 const SideBar = ({sum, bookMark}) => {
-    console.log(bookMark)
+    // console.log(bookMark)
     return (
         <div className=" ">
             <AddReadTime sum={sum}></AddReadTime>

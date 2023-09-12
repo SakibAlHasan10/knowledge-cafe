@@ -2,7 +2,7 @@ import PropTypes  from "prop-types";
 import Display from "./Display";
 
 const AddRead = ({bookMark}) => {
-    console.log('hello',bookMark)
+    // console.log('hello',bookMark)
     // const mark = bookMark.map(newBlog => newBlog)
     // console.log(mark)
     return (

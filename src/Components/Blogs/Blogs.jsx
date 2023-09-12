@@ -11,17 +11,22 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     },[])
     const [sum, setSum] = useState(0)
-    const sumAllTime = (time) => {
+    const [bookMark, setBookMark] = useState([])
+    // const [remove, setRemove] = useState([])
+    const sumAllTime = (time, id) => {
+        const blogId = bookMark.filter(newArray => newArray.id !== id)
+        setBookMark(blogId)
+        console.log(blogId)
+        console.log(bookMark)
         const setTime = sum + time;
         setSum(setTime)
-        // console.log(sum)
     } 
-    const [bookMark, setBookMark] = useState([])
     const addBookmark = (blog) =>{
         const arr = [...bookMark, blog] 
         setBookMark(arr)
     // console.log(bookMark, 'jj' )
 }
+// const [remove, setRemove] = useState([])
 // console.log(bookMark, 'jj' )
 // console.log('addBookmark',bookMark.length )
     return (
